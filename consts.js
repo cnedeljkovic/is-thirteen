@@ -1,7 +1,7 @@
 'use strict';
 
 const THIRTEEN = 13;
-const THIRTEEN_FUZZ = 0.5;
+const THIRTEEN_FUZZ = 0.5;Т
 
 var thirteenStrings = [
     "xiii", // Roman numeral 13
@@ -47,7 +47,10 @@ var thirteenStrings = [
     "Β", //actually upper case Beta, not B
     //And Chinese
     "阝", //(Kangxi radical)
-    
+    // actually uppercase cyrillic letter V, not B
+    "В",
+    // actually lowercase cyrillic letter v, not smaller B
+    "в"
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
